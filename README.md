@@ -15,6 +15,10 @@
 ![image](https://user-images.githubusercontent.com/101811119/174246735-aa0e88da-32e1-4f90-8e9e-b23146b9e519.png)
 
 3.  ### 돌연변이(Mutation) 연산 
+- 돌연변이 연산은, 아주 적은 확률로 후보해의 일부를 임의로 변형하는 것이다. 이 확률을 돌연변이율이라 한다.
+- 예시로, 아래는 두번째 bit에서 0->1로 돌연변이가 일어난 것이다.
+![image](https://user-images.githubusercontent.com/101811119/174249557-a320305a-6c77-4cbb-95e5-49ffe3b3aed1.png)
+- 돌연변이 연산 후에 후보해의 적합도가 더 낮아질 수도 있지만, 다음 세대에 돌연변이가 일어난 후보해와, 다른 후보해들을 교차 연산하며, 이후 세대에서 더욱 우수한 후보해를 생성하려는 목적을 가지고 있다.
 
 #
 # | 모의 담금질 기법 (Simulatedn Annealing)
